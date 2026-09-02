@@ -59,14 +59,14 @@ The links use HTML anchor links (because it is in the same page only) with secti
 
 8. Application Screenshots
 
-##Desktop
+## Desktop
 <img width="1028" height="699" alt="Screenshot 2026-09-02 at 11 10 07 PM" src="https://github.com/user-attachments/assets/a9482a71-1643-414f-953e-14754ebc16f4" />
 
-##Tablet
+## Tablet
 <img width="1028" height="699" alt="Screenshot 2026-09-02 at 11 13 04 PM" src="https://github.com/user-attachments/assets/d63a197d-e1fc-421a-8769-9a3893af47fd" />
 <img width="1028" height="699" alt="Screenshot 2026-09-02 at 11 13 29 PM" src="https://github.com/user-attachments/assets/02e33c88-423e-4567-a9c8-a79c18c83a4d" />
 
-##Mobile
+## Mobile
 <img width="947" height="506" alt="Screenshot 2026-09-02 at 11 00 00 PM" src="https://github.com/user-attachments/assets/4eabdfaa-8d7d-4333-a862-64e3e0405b73" />
 <img width="947" height="506" alt="Screenshot 2026-09-02 at 11 00 12 PM" src="https://github.com/user-attachments/assets/a84961bb-3268-4a95-a355-ace416f53086" />
 <img width="478" height="890" alt="Screenshot 2026-09-02 at 10 59 17 PM" src="https://github.com/user-attachments/assets/8e78b740-2c87-4621-8daf-4a9a6145bc0d" />
