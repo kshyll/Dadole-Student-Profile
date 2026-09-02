@@ -12,144 +12,281 @@
 
 <body>
 
+    <a class="skip-link" href="#main">Skip to main content</a>
+
     <div class="app">
+
         <div class="topbar">
             <span class="topbar-title">Student Profile</span>
         </div>
 
-        <div class="profile-header">
+        <header class="profile-header">
+
             <div class="profile-pic" id="profilePic">
-                TD
+                <img src="images/profile.JPEG" alt="Trishya Dadole profile picture">
             </div>
-            <div class="profile-name" id="profileName">
+
+            <h1 class="profile-name" id="profileName">
                 Trishya Dadole
-            </div>
-            <div class="profile-subtitle" id="profileSubtitle">
-                Student Developer
-            </div>
+            </h1>
 
-        </div>
+            <p class="profile-subtitle" id="profileSubtitle">
+                Aspiring Student Developer
+            </p>
 
-        <nav class="navmenu">
-            <a href="#about">About Me</a>
+            <span class="status">
+                <span class="status-dot" aria-hidden="true"></span>
+                Dedicated to continuous learning and development
+            </span>
+
+        </header>
+
+        <nav class="navmenu" aria-label="Section navigation">
+
+            <a href="#about">About</a>
             <a href="#skills">Skills</a>
+
         </nav>
 
-        <div class="info-card">
+        <div class="layout">
 
-            <div class="info-row">
+            <aside class="sidebar">
 
-                <div class="info-item">
-                    <span class="info-label">Program</span>
-                    <span class="info-value">
-                        BS in Information Technology
-                    </span>
+                <div class="info-card">
+
+                    <div class="info-row">
+
+                        <div class="info-item">
+                            <span class="info-label">Program</span>
+
+                            <span class="info-value">
+                                BS in Information Technology
+                            </span>
+                        </div>
+
+                        <div class="info-item">
+                            <span class="info-label">University</span>
+
+                            <span class="info-value">
+                                Xavier University
+                            </span>
+                        </div>
+
+                        <div class="info-item full">
+                            <span class="info-label">Focus &amp; Learning Area</span>
+
+                            <span class="info-value">
+                                Web &amp; Mobile App Development | Cybersecurity
+                            </span>
+                        </div>
+
+                    </div>
+
                 </div>
 
-                <div class="info-item">
-                    <span class="info-label">University</span>
-                    <span class="info-value">
-                        Xavier University
-                    </span>
-                </div>
+                <section class="section-card" id="contact" aria-labelledby="contact-heading">
 
-                <div class="info-item full">
-                    <span class="info-label">Focus & Learning Area</span>
-                    <span class="info-value">
-                        Web & Mobile App Development | Cybersecurity
-                    </span>
-                </div>
-            </div>
+                    <div class="section-heading">
 
-        </div>
+                        <div>
+                            <h2 class="section-title" id="contact-heading">
+                                Let's connect
+                            </h2>
 
-        <div class="section-card" id="about">
+                            <p class="section-subtitle">
+                                Find me online
+                            </p>
+                        </div>
 
-            <div class="section-heading">
-                <span class="section-icon">✦</span>
-                <div>
-                    <div class="section-title">Who I am</div>
-                    <div class="section-subtitle">About me</div>
-                </div>
-            </div>
+                    </div>
 
-            <div class="about-content">
+                    <div class="contact-links">
 
-                <p>
-                    I am a BS Information Technology student interested in mobile application development,
-                    web development, and UI/UX design. In my free time, I explore on Cybersecurity
-                    and sometimes on Embedded Systems.
-                </p>
+                        <a href="mailto:trishyasmdadole@gmail.com">
+                            trishyasmdadole@gmail.com
+                        </a>
 
-                <p>
-                    Outside of academics, I am also involved in student leadership and
-                    actively participate in several organizations, including the Council
-                    of Computer Studies, Xavier Circle of Information Technology,
-                    GDG-CDO, RoboGals – CDO Chapter, and WTM-CDO.
-                </p>
+                        <a href="#">
+                            @trishyadadole
+                        </a>
 
-                <p>
-                    I also enjoy extracurricular activities such as yoga and hiking,
-                    which help me stay active and balanced.
-                </p>
+                        <a href="#">
+                            github.com/kshyll
+                        </a>
 
-            </div>
+                    </div>
 
-        </div>
+                </section>
 
+            </aside>
 
-        <div class="section-card" id="skills">
+            <main class="content" id="main">
 
-            <div class="section-heading">
-                <span class="section-icon">◆</span>
-                <div>
-                    <div class="section-title">What I use</div>
-                    <div class="section-subtitle">Skills and experience</div>
-                </div>
-            </div>
+                <section class="section-card" id="about" aria-labelledby="about-heading">
 
-            <div class="skills">
-                <span class="skill">HTML</span>
-                <span class="skill">CSS</span>
-                <span class="skill">Vanilla JavaScript</span>
-                <span class="skill">Figma</span>
-                <span class="skill">Python</span>
-                <span class="skill">Java</span>
-                <span class="skill">UI/UX Design</span>
-                <span class="skill">MySQL</span>
-                <span class="skill">Git & GitHub</span>
-            </div>
+                    <div class="section-heading">
 
-        </div>
+                        <span class="section-icon" aria-hidden="true">
+                            ⋆❀°
+                        </span>
 
-        <div class="section-card" id="contact">
+                        <div>
+                            <h2 class="section-title" id="about-heading">
+                                Who I am
+                            </h2>
 
-            <div class="section-heading">
-                <div>
-                    <div class="section-title">Let's connect</div>
-                    <div class="section-subtitle">Find me online</div>
-                </div>
-            </div>
+                            <p class="section-subtitle">
+                                About me
+                            </p>
+                        </div>
 
-            <div class="contact-links">
+                    </div>
 
-                <a href="mailto:trishyasmdadole@gmail.com">
-                    trishyasmdadole@gmail.com
+                    <div class="about-content">
+
+                        <p>
+                            I am a BS Information Technology student at Xavier University, focused on
+                            mobile application development, web development, and UI/UX design. In my
+                            free time, I explore Cybersecurity and sometimes Embedded Systems.
+                        </p>
+
+                        <p>
+                            Outside of academics, I am involved in student leadership and actively
+                            participate in several organizations, including the Council of Computer
+                            Studies, Xavier Circle of Information Technology, GDG-CDO, RoboGals-CDO
+                            Chapter, and WTM-CDO.
+                        </p>
+
+                        <p>
+                            My goal is to build a fruitful, stable, and dedicated career as a developer
+                            while creating applications that are useful and essential to the community.
+                            I aim to contribute to society not only through my career but also through
+                            the impact of my work, continuously paying it forward and using my skills
+                            to help others.
+                        </p>
+
+                        <p>
+                            Outside of tech, I enjoy yoga, reading, and hiking, which help me stay
+                            grounded and balanced.
+                        </p>
+
+                    </div>
+
+                </section>
+
+                <section class="section-card" id="skills" aria-labelledby="skills-heading">
+
+                    <div class="section-heading">
+
+                        <span class="section-icon" aria-hidden="true">
+                            ⋆❀°
+                        </span>
+
+                        <div>
+                            <h2 class="section-title" id="skills-heading">
+                                What I use
+                            </h2>
+
+                            <p class="section-subtitle">
+                                Skills and experience
+                            </p>
+                        </div>
+
+                    </div>
+
+                    <ul class="skills">
+
+                        <li class="skill-item">
+                            <span class="skill">HTML</span>
+
+                            <p class="skill-desc">
+                                Structuring accessible, semantic web pages.
+                            </p>
+                        </li>
+
+                        <li class="skill-item">
+                            <span class="skill">CSS</span>
+
+                            <p class="skill-desc">
+                                Styling and building responsive, mobile-friendly layouts.
+                            </p>
+                        </li>
+
+                        <li class="skill-item">
+                            <span class="skill">Vanilla JavaScript</span>
+
+                            <p class="skill-desc">
+                                Adding interactivity without relying on frameworks.
+                            </p>
+                        </li>
+
+                        <li class="skill-item">
+                            <span class="skill">Figma</span>
+
+                            <p class="skill-desc">
+                                Designing UI/UX mockups and prototypes.
+                            </p>
+                        </li>
+
+                        <li class="skill-item">
+                            <span class="skill">Python</span>
+
+                            <p class="skill-desc">
+                                Scripting and working through coursework and small tools.
+                            </p>
+                        </li>
+
+                        <li class="skill-item">
+                            <span class="skill">Java</span>
+
+                            <p class="skill-desc">
+                                Object-oriented programming for academic projects.
+                            </p>
+                        </li>
+
+                        <li class="skill-item">
+                            <span class="skill">UI/UX Design</span>
+
+                            <p class="skill-desc">
+                                Designing usable, accessible interfaces.
+                            </p>
+                        </li>
+
+                        <li class="skill-item">
+                            <span class="skill">MySQL</span>
+
+                            <p class="skill-desc">
+                                Designing and querying relational databases.
+                            </p>
+                        </li>
+
+                        <li class="skill-item">
+                            <span class="skill">Git & GitHub</span>
+
+                            <p class="skill-desc">
+                                Version control and collaborative development.
+                            </p>
+                        </li>
+
+                    </ul>
+
+                </section>
+
+                <a class="back-top" href="#">
+                    ↑ Back to top
                 </a>
 
-                <a href="#">
-                    @trishyadadole
-                </a>
+            </main>
 
-                <a href="#">
-                    github.com/kshyll
-                </a>
-            </div>
         </div>
 
-        <p class="copyright">
-            &copy; 2026 Trishya Dadole
-        </p>
+        <footer class="copyright">
+            © 2026 Trishya Dadole. All rights reserved. <br>
+            BS in Information Technology - 3
+        </footer>
+
     </div>
+
 </body>
+
 </html>
