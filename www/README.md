@@ -1,4 +1,4 @@
-# Dadole_StudentProfile
+<img width="1200" height="3830" alt="4f852565-de89-41f3-b18e-ad88f83a5a98" src="https://github.com/user-attachments/assets/abc7c4de-4899-4ddb-8b6a-30c809f4e680" /># Dadole_StudentProfile
 
 ## 1. Project Description
 
@@ -93,10 +93,18 @@ cordova run android
 
 ## 7. Application Screenshots
 
-Screenshots of the following pages can be added here before submitting:
-
 -   Profile
+<img width="1200" height="2685" alt="4bde107b-9850-47c7-a487-f741abfc1144" src="https://github.com/user-attachments/assets/e27137c3-fc18-4ab9-a916-850bd0f27610" />
+
 -   About
+<img width="1122" height="4095" alt="2449ddb3-f91c-43c4-8ea8-542b782657fb" src="https://github.com/user-attachments/assets/0aa0d009-4e45-4530-b01c-e9459afb4100" />
+  
 -   Skills
+<img width="794" height="4094" alt="43ef8900-88ed-46f0-949e-5cc098179acb" src="https://github.com/user-attachments/assets/7509ea0e-1a4c-4f3c-9bd6-d52214156399" />
+
 -   Projects
+<img width="900" height="4099" alt="1e79dc7d-9c01-47b1-9c71-24eff393eb56" src="https://github.com/user-attachments/assets/5a6d8669-4fb9-49bb-956f-c585e85822a2" />
+
 -   Contact
+<img width="1200" height="3830" alt="4f852565-de89-41f3-b18e-ad88f83a5a98" src="https://github.com/user-attachments/assets/1cf67554-749b-4ae5-b5d6-9b0c7b57135d" />
+
