@@ -1,73 +1,110 @@
-## Dadole Student Profile | Activity 3
+<img width="1200" height="3830" alt="4f852565-de89-41f3-b18e-ad88f83a5a98" src="https://github.com/user-attachments/assets/abc7c4de-4899-4ddb-8b6a-30c809f4e680" /># Dadole_StudentProfile
 
-1. Project Description
+## 1. Project Description
 
-The product is in partial fulfillment of my output for ITCC 41 - Mobile Development Activity 3. This project is a student profile using apache cordova containing my personal, education, and technical information. The current application was improved with the instructions provided from activity 3 applying responsive design and UI/UX principles from module 4.
+This is my Student Profile application made using Apache Cordova, HTML,
+and CSS. I updated my previous single-page profile into five pages:
+Profile, About, Skills, Projects, and Contact.
 
-3. Application Structure
-   
-The application is organized into the following main sections:
-Header - displaying profile picture, complete name, subtitle, current learning status
-Navigation Menu - Provides links to about and skills section of the application
-About Section - information about my education, interests, organizations, career goals, and personal interests
-Skills Section - technical skills with short description
-Footer - copyright information, name, and current year level
+The goal of the project is to present information about me, my skills,
+the projects I have worked on, and ways to contact me. I also kept the
+design simple, responsive, and easy to navigate.
 
-3. Responsive Design
-   
-My student profile uses responsive design techniques so that the layout will adjust accordingly to any device such as tablet, desktop, and smartphone.
+## 2. Application Pages
 
-The following Module 4 responsive techniques were applied:
+-   **Profile (`index.html`)** --- The homepage. It shows my profile
+    picture, complete name, short introduction, and a brief description
+    about me.
+-   **About (`about.html`)** --- Contains more information about me, my
+    interests, education, organizations, and goals.
+-   **Skills (`skills.html`)** --- Shows my skills and areas of
+    expertise, including programming, web development, mobile
+    development, UI/UX design, database management, and version control.
+-   **Projects (`projects.html`)** --- Shows some of the projects I have
+    worked on with short descriptions and project links when available.
+-   **Contact (`contact.html`)** --- Contains my contact information and
+    a contact form layout where visitors can enter their name, email,
+    subject, and message.
 
-- Flexible layouts using Flexbox and CSS Grid.
-- Media queries to adjust the layout at different screen sizes.
-- Responsive images using flexible width and height.
-- Flexible typography using responsive font sizing.
-- Mobile-first layout where content is arranged vertically on smaller screens.
-- Two-column layout for larger desktop screens.
-- Small-screen adjustments to improve spacing and readability on smaller devices.
-- Responsive navigation with large enough links for touch interaction.
+## 3. Navigation
 
-4. UI/UX Principles Applied
-   
-Principles I applied in Module 4 includes:
-- **Responsive Layout**: The layout adjusts from a single-column design on mobile devices to a two-column design on larger screens.
-- **Mobile-Friendly Spacing**: Proper spacing and padding are used to make the content easier to read and interact with on smaller screens.
-- **Appropriate Typography**: Different font sizes and font weights are used to make headings and text clear and easy to read.
-- **Clear Visual Hierarchy**: Different sizes, weights, and spacing help users easily identify the most important information.
-- **Usable Controls**: Navigation links and clickable elements have enough size and spacing for easier interaction.
-- **Basic Accessibility**: Semantic HTML, alternative text, organized headings, focus indicators, and a Skip to Main Content link are included. Has a clear skip to main content compared to activity 2.
-- **Consistent Design**: Consistent colors that does not overpower the content, typography, spacing, borders, and card styles are used throughout the application.
+I used regular HTML links for the navigation. All five pages have the
+same bottom navigation menu:
 
-5. Navigation
-   
-The about and skills navigation links allows users to move directly to corresponding sections.
+`Home / About / Skills / Projects / Contact`
 
-The links use HTML anchor links (because it is in the same page only) with section IDs:
-  - #about: about section
-  - #skills: skills section
+The active page is highlighted in the navigation so it is easier to know
+which page I am currently viewing. I also added a back link on the other
+pages that leads back to the Profile page.
 
-6. How to Run
-   
-- Open Terminal
-- Navigate to the project folder: cd "path/to/DadoleStudentProfile"
-- Install the project dependencies: npm install
-- Add the Android platform if it is not already installed: cordova platform add android
-- Build the Android application: cordova build android
-- Start an Android emulator
-- Run the application: cordova emulate android
+## 4. Responsive Design
 
-8. Application Screenshots
+The website uses a mobile-first layout and adjusts to different screen
+sizes.
 
-## Desktop
-<img width="1028" height="699" alt="Screenshot 2026-09-02 at 11 10 07 PM" src="https://github.com/user-attachments/assets/a9482a71-1643-414f-953e-14754ebc16f4" />
+-   The layout is designed to work on mobile, tablet, and desktop
+    screens.
+-   The navigation stays at the bottom of the screen.
+-   The skill cards adjust into columns on larger screens.
+-   The content uses flexible widths to avoid unnecessary horizontal
+    scrolling.
+-   Spacing and text sizes adjust on larger screens to keep the pages
+    readable.
 
-## Tablet
-<img width="1028" height="699" alt="Screenshot 2026-09-02 at 11 13 04 PM" src="https://github.com/user-attachments/assets/d63a197d-e1fc-421a-8769-9a3893af47fd" />
-<img width="1028" height="699" alt="Screenshot 2026-09-02 at 11 13 29 PM" src="https://github.com/user-attachments/assets/02e33c88-423e-4567-a9c8-a79c18c83a4d" />
+## 5. UI/UX and Accessibility
 
-## Mobile
-<img width="947" height="506" alt="Screenshot 2026-09-02 at 11 00 00 PM" src="https://github.com/user-attachments/assets/4eabdfaa-8d7d-4333-a862-64e3e0405b73" />
-<img width="947" height="506" alt="Screenshot 2026-09-02 at 11 00 12 PM" src="https://github.com/user-attachments/assets/a84961bb-3268-4a95-a355-ace416f53086" />
-<img width="478" height="890" alt="Screenshot 2026-09-02 at 10 59 17 PM" src="https://github.com/user-attachments/assets/8e78b740-2c87-4621-8daf-4a9a6145bc0d" />
+I kept the design simple and consistent throughout the five pages.
+
+-   **Consistency** --- The same red and blue color scheme, cards,
+    spacing, and navigation are used across the pages.
+-   **Visual hierarchy** --- Headings and important information use
+    different sizes and weights to make the content easier to scan.
+-   **Usability** --- The bottom navigation makes it easy to move
+    between the five pages.
+-   **Readability** --- The layout gives the content enough space and
+    keeps paragraphs easy to read.
+-   **Accessibility** --- The pages use semantic headings, descriptive
+    image alt text, visible focus states, and a skip-to-content link.
+
+## 6. How to Run
+
+1.  Make sure Node.js and the Cordova CLI are installed.
+2.  Open the project folder in the terminal.
+3.  Add the Android platform if it is not already added:
+
+``` text
+cordova platform add android
+```
+
+4.  Make sure the website files are inside the `www` folder.
+5.  Build the project:
+
+``` text
+cordova build android
+```
+
+6.  Run the application using an emulator or connected device:
+
+``` text
+cordova run android
+```
+
+7.  Check each page and make sure the navigation links work properly.
+
+## 7. Application Screenshots
+
+-   Profile
+<img width="1200" height="2685" alt="4bde107b-9850-47c7-a487-f741abfc1144" src="https://github.com/user-attachments/assets/e27137c3-fc18-4ab9-a916-850bd0f27610" />
+
+-   About
+<img width="1122" height="4095" alt="2449ddb3-f91c-43c4-8ea8-542b782657fb" src="https://github.com/user-attachments/assets/0aa0d009-4e45-4530-b01c-e9459afb4100" />
+  
+-   Skills
+<img width="794" height="4094" alt="43ef8900-88ed-46f0-949e-5cc098179acb" src="https://github.com/user-attachments/assets/7509ea0e-1a4c-4f3c-9bd6-d52214156399" />
+
+-   Projects
+<img width="900" height="4099" alt="1e79dc7d-9c01-47b1-9c71-24eff393eb56" src="https://github.com/user-attachments/assets/5a6d8669-4fb9-49bb-956f-c585e85822a2" />
+
+-   Contact
+<img width="1200" height="3830" alt="4f852565-de89-41f3-b18e-ad88f83a5a98" src="https://github.com/user-attachments/assets/1cf67554-749b-4ae5-b5d6-9b0c7b57135d" />
 
