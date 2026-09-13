@@ -1,3 +1,4 @@
+<img width="1716" height="1180" alt="Screenshot 2026-09-13 at 9 27 10 PM" src="https://github.com/user-attachments/assets/3f003d84-d074-4ca5-8794-6510c121737f" /><img width="1716" height="1180" alt="Screenshot 2026-09-13 at 9 26 54 PM" src="https://github.com/user-attachments/assets/956d7af0-d5af-4b9a-ac12-0370c08b2607" />
 ## 1. Project Description
 
 This is my Student Profile application made using Apache Cordova, HTML,
@@ -96,9 +97,11 @@ cordova run android
 
 -   About
 <img width="1122" height="4095" alt="2449ddb3-f91c-43c4-8ea8-542b782657fb" src="https://github.com/user-attachments/assets/0aa0d009-4e45-4530-b01c-e9459afb4100" />
-  
+<img width="1716" height="1180" alt="Screenshot 2026-09-13 at 9 27 10 PM" src="https://github.com/user-attachments/assets/72296764-1984-412c-a142-fb9f3750b9de" />
+
 -   Skills
 <img width="794" height="4094" alt="43ef8900-88ed-46f0-949e-5cc098179acb" src="https://github.com/user-attachments/assets/7509ea0e-1a4c-4f3c-9bd6-d52214156399" />
+<img width="1716" height="1180" alt="Screenshot 2026-09-13 at 9 26 54 PM" src="https://github.com/user-attachments/assets/8fed7e75-9170-4c2a-9c53-1b54d93553a6" />
 
 -   Projects
 <img width="900" height="4099" alt="1e79dc7d-9c01-47b1-9c71-24eff393eb56" src="https://github.com/user-attachments/assets/5a6d8669-4fb9-49bb-956f-c585e85822a2" />
