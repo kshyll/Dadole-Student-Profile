@@ -1,4 +1,3 @@
-<img width="1716" height="1180" alt="Screenshot 2026-09-13 at 9 27 10 PM" src="https://github.com/user-attachments/assets/3f003d84-d074-4ca5-8794-6510c121737f" /><img width="1716" height="1180" alt="Screenshot 2026-09-13 at 9 26 54 PM" src="https://github.com/user-attachments/assets/956d7af0-d5af-4b9a-ac12-0370c08b2607" />
 ## 1. Project Description
 
 This is my Student Profile application made using Apache Cordova, HTML,
