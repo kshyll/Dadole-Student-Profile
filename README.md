@@ -1,5 +1,3 @@
-<img width="1200" height="3830" alt="4f852565-de89-41f3-b18e-ad88f83a5a98" src="https://github.com/user-attachments/assets/abc7c4de-4899-4ddb-8b6a-30c809f4e680" /># Dadole_StudentProfile
-
 ## 1. Project Description
 
 This is my Student Profile application made using Apache Cordova, HTML,
